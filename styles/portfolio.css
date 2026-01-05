@@ -10,9 +10,12 @@
 
 header{
     background-color: #fff8f3;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     padding: 30px;
+    background: url('/images/developer.png'),url('/images/header_bg.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     display: flex;
@@ -53,10 +56,71 @@ nav ul li{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #FD6E0A;
     font-weight: 600;
 }
 .hire:hover{
-    background-color: #e65c00;
+    background-color: #ffffff;
+    color: #FD6E0A;
     cursor: pointer;
+    border: #FD6E0A 1px solid;
+}
+
+#banner{
+    margin: 40px 38px 0 210px;
+    width: 70%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content img{
+    width: 500px;
+    height: auto;
+}
+#banner .banner-content h2{
+    font-size: 40px;
+    color: #574846;
+}
+#banner .banner-content h1{
+    font-size: 60px;
+    color: #20100e;
+}
+#banner .banner-content p{
+    font-size: 20px;
+    color: #474747;
+    margin: 20px 0;
+}
+.btn1{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-weight: 600;
+}
+.btn1:hover{
+    background-color: #ffffff;
+    color: #FD6E0A;
+    cursor: pointer;
+    border: #FD6E0A 1px solid;
+}
+.btn2{
+    background-color: #ffffff;
+    color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: #FD6E0A 1px solid;
+}
+.btn2:hover{
+    background-color: #FD6E0A;
+    color: white;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
