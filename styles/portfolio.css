@@ -158,3 +158,54 @@ nav ul li{
     justify-content: space-between;
     margin-top: 30px;
 }
+
+.what-i-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    max-width: 1140px;
+    margin: auto;
+}
+.what-i-do h2{
+    font-size: 36px;
+    color: #20100e;
+    margin-bottom: 30px;
+}
+.what-i-do p{
+    font-size: 18px;
+    color: #474747;
+    text-align: center;
+}
+.skill-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin:auto;
+    margin-bottom: 50px;
+    width: 70%;
+    max-width: 1140px;
+    padding-top: 50px;
+}
+.card1{
+    padding: 20px;
+    border-radius: 5px;
+    width: 267px;
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.card1 h2{
+    font-size: 20px;
+    color: #20100e;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card1 p{
+    font-size: 16px;
+    color: #474747;
+    margin-top: 10px;
+}
